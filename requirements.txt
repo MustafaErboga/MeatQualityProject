@@ -1,24 +1,8 @@
-<<<<<<< HEAD
 kaggle
 Pillow
 matplotlib
-opencv-python
-numpy
-pandas
-tensorflow
-seaborn
 scikit-learn
-streamlit
-=======
-kaggle
-Pillow
-matplotlib
-opencv-python
-numpy
-pandas
 tensorflow
-seaborn
-scikit-learn
+pandas
+numpy
 streamlit
->>>>>>> 50e38b46544fceda45a843210fe9e2b9751ee6c6
-requests
