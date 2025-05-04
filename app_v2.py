@@ -45,7 +45,7 @@ uploaded_file = st.file_uploader("Lütfen bir et fotoğrafı yükleyin (.jpg, .j
 if uploaded_file is not None:
     # Görseli göster
     image = Image.open(uploaded_file).convert('RGB')
-    st.image(image, caption="Yüklenen Görsel", use_column_width=True)
+    st.image(image, caption="Yüklenen Görsel", use_container_width=True)
 
     # Görseli modele uygun hale getir
     # Sizin kodunuzda 128x128 olarak yeniden boyutlandırılıyordu, onu korudum.
