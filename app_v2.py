@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import numpy as np
 from PIL import Image
@@ -106,4 +105,3 @@ if uploaded_file is not None:
         st.success("Bu et görseli **taze** görünüyor.")
     else:
         st.error("Bu et görseli **bozulmuş** olabilir!")
->>>>>>> 50e38b46544fceda45a843210fe9e2b9751ee6c6
